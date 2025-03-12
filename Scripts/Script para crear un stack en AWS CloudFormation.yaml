@@ -1,0 +1,18 @@
+AWSTemplateFormatversion: "2010-09-09"
+Resources:
+S3Bucket:
+Type: "AWS::S3::Bucket"
+Properties:
+BucketName: "mi-bucket-versionado"
+MyEC2Instance:
+
+
+Type: "AWS::EC2::Instance"
+Properties:
+
+
+InstanceType: "t2.micro"
+ImageId: "ami-12345678" # Reemplazar con una AMI valida
+Tags:
+- Key: "Name"
+Value: "ServidorPrueba"

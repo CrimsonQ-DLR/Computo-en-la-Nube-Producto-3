@@ -1,0 +1,7 @@
+
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/mi-repositorio cd mi-repositorio
+git checkout -b versionamiento-v1
+lecho "Nueva versión de infraestructura" >> version.txt
+git add.
+git commit -m "Versión inicial de infraestructura"
+git push origin versionamiento-v1
